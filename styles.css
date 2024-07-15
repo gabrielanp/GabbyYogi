@@ -19,7 +19,7 @@ header {
 
 .header-content {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column; /* Stack elements vertically */
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
@@ -29,11 +29,20 @@ header {
     max-width: 100px;
 }
 
+.brand-name {
+    margin-top: 5px; /* Adjust as needed for spacing */
+    font-size: 1.5em;
+    color: white;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
 header nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
+    gap: 15px; /* Add gap between nav items */
+    margin-top: 10px; /* Adjust as needed for spacing */
 }
 
 header nav ul li {
@@ -44,6 +53,7 @@ header nav ul li a {
     color: white;
     text-decoration: none;
 }
+
 
 .hero {
     position: relative;
