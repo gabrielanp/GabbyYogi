@@ -11,16 +11,54 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
-.landing {
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
-    margin: 20px 0;
+    padding: 100px 20px;
+    background: #f3f3f3;
+}
+
+.hero-content {
+    max-width: 600px;
 }
 
 .profile-pic {
     max-width: 200px;
     border-radius: 50%;
+    margin-bottom: 20px;
 }
 
 button {
@@ -30,22 +68,16 @@ button {
     padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;
+    margin-top: 10px;
 }
 
 button:hover {
     background-color: #e60073;
 }
 
-.calendar {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
-}
-
-.contact-form {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
+.schedule, .contact-form {
+    padding: 60px 20px;
+    text-align: center;
 }
 
 form {
@@ -53,6 +85,7 @@ form {
     padding: 20px;
     border-radius: 8px;
     width: 300px;
+    margin: 0 auto;
 }
 
 label {
@@ -69,5 +102,15 @@ input, textarea {
 }
 
 button[type="submit"] {
+    width: 100%;
+}
+
+footer {
+    background-color: #ff007f;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
     width: 100%;
 }
