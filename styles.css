@@ -51,16 +51,18 @@ header nav ul li a {
     align-items: center;
     text-align: center;
     height: 100vh;
-    background: url('pexels-chevanon-317157.jpg');
     position: relative;
+    background-size: cover;
+    background-position: center;
 }
 
 .hero-overlay {
-    background: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 20px;
     border-radius: 8px;
 }
+
 
 .hero-overlay button {
     background-color: #ff007f;
