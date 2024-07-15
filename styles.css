@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff007f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.landing {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.profile-pic {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+button {
+    background-color: #ff007f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #e60073;
+}
+
+.calendar {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    width: 100%;
+}

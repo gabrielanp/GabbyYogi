@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabby Yogi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Gabby Yogi</h1>
+    </header>
+    <section class="landing">
+        <img src="path_to_your_image.jpg" alt="Gabby Yogi" class="profile-pic">
+        <button onclick="contactMe()">Get in Contact</button>
+    </section>
+    <section class="calendar">
+        <iframe src="https://calendar.google.com/calendar/u/0?cid=NWZlMTFiYTM2Y2M0YmFmNDZmOWNhYTZiMTFkY2YwMDQ0MmQ3OTU1ZDE4MWIwOTU0MzcyOWNiZDdkZjI0YjQwZkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </section>
+    <section class="contact-form">
+        <form action="https://formspree.io/YOUR_EMAIL_HERE" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <script src="scripts.js"></script>
+</body>
+</html>
