@@ -60,17 +60,19 @@ header nav ul li a {
 }
 
 .hero-overlay {
-    background: rgba(0, 0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     padding: 20px;
     border-radius: 8px;
 }
 
 .hero-overlay h1 {
-    font-size: 3em;  /* Increases the size of the main title */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 4em;  /* Increases the size of the main title */
 }
 
 .hero-overlay h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 2em;  /* Increases the size of the subtitle */
 }
 
@@ -94,11 +96,12 @@ header nav ul li a {
 }
 
 .calendar-container {
-    max-width: 800px;
+    max-width: 600px;
     margin: 0 auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
+    border: 5px solid #ff007f;  /* Add a pink border to the iframe container */
 }
 
 /* Contact Form Styles */
