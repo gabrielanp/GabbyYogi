@@ -8,7 +8,6 @@ body {
 
 header {
     background-color: #ff007f;
-
     color: white;
     padding: 20px;
     text-align: center;
@@ -57,10 +56,24 @@ header nav ul li a {
 }
 
 .hero-overlay {
-    background: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 20px;
     border-radius: 8px;
+}
+
+.hero-overlay button {
+    background-color: #ff007f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.hero-overlay button:hover {
+    background-color: #e60073;
 }
 
 .schedule, .contact-form {
@@ -89,19 +102,10 @@ input, textarea {
     border-radius: 4px;
 }
 
-button {
-    background-color: #ff007f;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-top: 10px;
+button[type="submit"] {
+    width: 100%;
 }
 
-button:hover {
-    background-color: #e60073;
-}
 footer {
     background-color: #ff007f;
     color: white;
