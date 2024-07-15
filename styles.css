@@ -62,7 +62,7 @@ header nav ul li a {
 .hero-overlay {
     background: rgba(0, 0, 0, 0.5);
     color: white;
-    padding: 20px;
+    padding: 100px;
     border-radius: 8px;
     max-width: 90%;
 }
