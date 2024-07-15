@@ -209,6 +209,14 @@ button[type="submit"]:hover {
     color: white;
 }
 
+footer {
+    
+    text-align: center; /* Center the text */
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
 
 
 
