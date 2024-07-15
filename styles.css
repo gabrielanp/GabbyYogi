@@ -51,12 +51,12 @@ header nav ul li a {
     align-items: center;
     text-align: center;
     height: 100vh;
-    background: url('DSC_00121.png') no-repeat center center/cover;
+    background: url('DSC_00121.jpg');
     position: relative;
 }
 
 .hero-overlay {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0);
     color: white;
     padding: 20px;
     border-radius: 8px;
