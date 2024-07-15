@@ -52,7 +52,9 @@ header nav ul li a {
     text-align: center;
     height: 100vh;
     position: relative;
-    background-size: cover;
+    background-image: url('DSC_00121.JPG');
+    background-size: contain;  /* Ensures the entire image fits within the section */
+    background-repeat: no-repeat;  /* Prevents the image from repeating */
     background-position: center;
 }
 
@@ -63,14 +65,21 @@ header nav ul li a {
     border-radius: 8px;
 }
 
+.hero-overlay h1 {
+    font-size: 3em;  /* Increases the size of the main title */
+}
+
+.hero-overlay h2 {
+    font-size: 2em;  /* Increases the size of the subtitle */
+}
 
 .hero-overlay button {
     background-color: #ff007f;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 15px 30px;  /* Adjusts padding for better button size */
     cursor: pointer;
-    font-size: 16px;
+    font-size: 18px;  /* Increases font size of the button */
     margin-top: 20px;
 }
 
