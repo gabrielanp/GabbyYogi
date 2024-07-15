@@ -88,10 +88,19 @@ input, textarea {
     border-radius: 4px;
 }
 
-button[type="submit"] {
-    width: 100%;
+button {
+    background-color: #ff007f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
 }
 
+button:hover {
+    background-color: #e60073;
+}
 footer {
     background-color: #ff007f;
     color: white;
