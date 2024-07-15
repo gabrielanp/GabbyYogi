@@ -8,16 +8,33 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to Gabby Yogi</h1>
+        <div class="header-content">
+            <h1>Gabby Yogi</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section class="landing">
-        <img src="path_to_your_image.jpg" alt="Gabby Yogi" class="profile-pic">
-        <button onclick="contactMe()">Get in Contact</button>
+    <section class="hero" id="about">
+        <div class="hero-content">
+            <img src="path_to_your_image.jpg" alt="Gabby Yogi" class="profile-pic">
+            <div class="intro-text">
+                <h2>Gabby Yogi</h2>
+                <p>Welcome to a journey of peace and balance through yoga.</p>
+                <button onclick="contactMe()">Get in Contact</button>
+            </div>
+        </div>
     </section>
-    <section class="calendar">
-        <iframe src="https://calendar.google.com/calendar/u/0?cid=NWZlMTFiYTM2Y2M0YmFmNDZmOWNhYTZiMTFkY2YwMDQ0MmQ3OTU1ZDE4MWIwOTU0MzcyOWNiZDdkZjI0YjQwZkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    <section class="schedule" id="schedule">
+        <h2>Class Schedule</h2>
+        <iframe src="https://calendar.google.com/calendar/embed?src=5fe11ba36cc4baf46f9caa6b11dcf0042d7955d181b09543729cbd7df24b40f@group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
     </section>
-    <section class="contact-form">
+    <section class="contact-form" id="contact">
+        <h2>Contact Me</h2>
         <form action="https://formspree.io/YOUR_EMAIL_HERE" method="POST">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
@@ -31,6 +48,9 @@
             <button type="submit">Send</button>
         </form>
     </section>
+    <footer>
+        <p>&copy; 2024 Gabby Yogi. All rights reserved.</p>
+    </footer>
     <script src="scripts.js"></script>
 </body>
 </html>
