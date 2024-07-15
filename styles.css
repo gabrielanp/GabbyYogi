@@ -46,19 +46,19 @@ header nav ul li a {
 }
 
 .hero {
+    position: relative;
     display: flex;
-    
     justify-content: center;
     align-items: center;
     text-align: center;
     height: 100vh;
-    position: relative;
     background-image: url('DSC_00121.JPG');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-  
+    padding: 20px;
 }
+
 .hero::before {
     content: '';
     position: absolute;
@@ -69,13 +69,16 @@ header nav ul li a {
     background: rgba(0, 0, 0, 0.5);  /* Black with 50% opacity */
     z-index: 1;
 }
+
 .hero-overlay {
-    
+    position: relative;
+    z-index: 2;  /* Ensure content is above the overlay */
     color: white;
-    padding: 100px;
+    padding: 20px;
     border-radius: 8px;
     max-width: 90%;
 }
+
 
 .hero-overlay h1 {
     font-family: 'Montserrat', Arial, sans-serif;
