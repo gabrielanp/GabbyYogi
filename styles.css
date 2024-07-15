@@ -47,6 +47,7 @@ header nav ul li a {
 
 .hero {
     display: flex;
+    background: rgba(0, 0, 0, 0.5);
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -60,7 +61,7 @@ header nav ul li a {
 }
 
 .hero-overlay {
-    background: rgba(0, 0, 0, 0.5);
+    
     color: white;
     padding: 100px;
     border-radius: 8px;
