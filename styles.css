@@ -28,13 +28,7 @@ header {
 .logo {
     max-width: 100px;
 }
-.calendar-container {
-    max-width: 800px;
-    margin: 0 auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    overflow: hidden;
-}
+
 
 header nav ul {
     list-style-type: none;
@@ -66,7 +60,7 @@ header nav ul li a {
 }
 
 .hero-overlay {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0);
     color: white;
     padding: 20px;
     border-radius: 8px;
@@ -99,8 +93,17 @@ header nav ul li a {
     text-align: center;
 }
 
+.calendar-container {
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Contact Form Styles */
 .contact-form {
-    max-width: 600px;
+    max-width: 800px; /* Make the form wider */
     margin: 0 auto;
     padding: 40px;
     background-color: #f9f9f9;
@@ -152,15 +155,4 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: #e60073;
-}
-
-
-footer {
-    background-color: #ff007f;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
 }
