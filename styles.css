@@ -8,6 +8,7 @@ body {
 
 header {
     background-color: #ff007f;
+
     color: white;
     padding: 20px;
     text-align: center;
@@ -51,12 +52,12 @@ header nav ul li a {
     align-items: center;
     text-align: center;
     height: 100vh;
-    background: url('path_to_your_yoga_image.jpg') no-repeat center center/cover;
+    background: url('DSC_00121.jpg') no-repeat center center/cover;
     position: relative;
 }
 
 .hero-overlay {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0);
     color: white;
     padding: 20px;
     border-radius: 8px;
