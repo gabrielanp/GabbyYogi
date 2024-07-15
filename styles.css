@@ -53,7 +53,7 @@ header nav ul li a {
     text-align: center;
     height: 100vh;
     position: relative;
-    background-image: url('DSC_00121.JPG');
+    background-image: url('DSC_0036 (1).jpg');
     background-size: contain;  /* Ensures the entire image fits within the section */
     background-repeat: no-repeat;  /* Prevents the image from repeating */
     background-position: center;
@@ -96,7 +96,7 @@ header nav ul li a {
 }
 
 .calendar-container {
-    max-width: 600px;
+    max-width: 700px;
     margin: 0 auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -118,6 +118,7 @@ header nav ul li a {
     margin-bottom: 20px;
     font-size: 2em;
     text-align: center;
+    color: #ff007f;
 }
 
 .form-group {
